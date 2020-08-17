@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registrar_compras"
+            android:icon="@drawable/ic_supermercado"
+            android:title="@string/menu_resgistrar_productos" />
+        <item
+            android:id="@+id/nav_informar"
+            android:icon="@drawable/ic_informacion"
+            android:title="@string/menu_informacion" />
+
+        <item
+            android:id="@+id/nav_notificar"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/menu_notificacion" />
+
+
+    </group>
+
+    <item android:title="CONFIGURACIÓN">
+        <menu>
+            <item
+                android:id="@+id/nav_ajustar"
+                android:icon="@drawable/ic_ajustes"
+                android:title="@string/menu_ajustes" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_listar_compras">
+
+    <fragment
+        android:id="@+id/nav_registrar_compras"
+        android:name="com.luchito.listadecompras.ui.registrar.RegistrarFragment"
+        android:label="@string/menu_resgistrar_productos"
+        tools:layout="@layout/fragment_registrar" />
+
+    <fragment
+        android:id="@+id/nav_informar"
+        android:name="com.luchito.listadecompras.ui.informar.InformarFragment"
+        android:label="@string/menu_informacion"
+        tools:layout="@layout/fragment_informar" />
+
+    <fragment
+        android:id="@+id/nav_notificar"
+        android:name="com.luchito.listadecompras.ui.notificar.NotificarFragment"
+        android:label="@string/menu_notificacion"
+        tools:layout="@layout/fragment_notificar" />
+
+    <fragment
+        android:id="@+id/nav_ajustar"
+        android:name="com.luchito.listadecompras.ui.ajustar.AjustarFragment"
+        android:label="@string/menu_ajustes"
+        tools:layout="@layout/fragment_ajustar" />
+    <fragment
+        android:id="@+id/nav_listar_compras"
+        android:name="com.luchito.listadecompras.ui.lista.ListaFragment"
+        android:label="fragment_nav_listar_compras"
+        tools:layout="@layout/fragment_nav_listar_compras" />
+
+</navigation>

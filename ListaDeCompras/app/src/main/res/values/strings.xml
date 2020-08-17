@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lista De Productos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LISTA DE PRODUCTOS</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_resgistrar_productos">MIS PRODUCTOS DEL DIA</string>
+    <string name="menu_informacion">ACERCA DE</string>
+    <string name="menu_notificacion">NOTIFICACIONES</string>
+    <string name="menu_ajustes">SUPERMERCADOS</string>
+    <string name="Titulo_cabecera_Contenido">LISTA DE PRODUCTOS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_principal">AQUI ES DONDE SE DEBE MOSTRAR LOS PRODUCTOS</string>
+
+
+
+
+</resources>
